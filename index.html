@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Save the Date | Marie + Michi</title>
+  <meta name="description" content="Save the Date zur Hochzeit von Marie und Michi am 05. September 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-decor" aria-hidden="true"></div>
+
+  <header class="hero" aria-labelledby="page-title">
+    <p class="hero__kicker">05 September, 2026</p>
+
+    <div class="hero__layout">
+      <figure class="invite-card reveal">
+        <div class="invite-card__date">05 September, 2026</div>
+        <img
+          class="invite-card__image"
+          src="assets/save-the-date-marie-michi.jpeg"
+          alt="Marie und Michi unter einem Bogen aus Ballons"
+          loading="eager"
+          fetchpriority="high"
+        >
+        <figcaption class="invite-card__caption" aria-hidden="true">
+          <div class="invite-card__save">SAVE THE</div>
+          <div class="invite-card__date-script">date</div>
+          <div class="invite-card__names">
+            <span>HOCHZEIT VON</span>
+            <span>MARIE + MICHI</span>
+          </div>
+        </figcaption>
+      </figure>
+
+      <section class="hero-copy reveal reveal--delay-1">
+        <p class="eyebrow">Hochzeit von</p>
+        <h1 id="page-title">Marie + Michi</h1>
+        <p class="hero-copy__lead">
+          Bitte reserviert euch den <strong>05. September 2026</strong> fuer unseren grossen Tag.
+          Die offizielle Einladung mit allen Details folgt.
+        </p>
+
+        <div class="hero-copy__chips" aria-label="Schnellinfos">
+          <span class="chip">Samstag</span>
+          <span class="chip">Save the Date</span>
+          <span class="chip">Weitere Infos folgen</span>
+        </div>
+
+        <a class="button" href="#details">Infos ansehen</a>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel countdown reveal reveal--delay-2" aria-labelledby="countdown-title">
+      <div class="panel__header">
+        <p class="eyebrow">Countdown</p>
+        <h2 id="countdown-title">Bis wir "Ja" sagen</h2>
+      </div>
+
+      <div class="countdown-grid" data-countdown aria-live="polite">
+        <div class="time-box">
+          <span class="time-box__value" data-part="days">000</span>
+          <span class="time-box__label">Tage</span>
+        </div>
+        <div class="time-box">
+          <span class="time-box__value" data-part="hours">00</span>
+          <span class="time-box__label">Stunden</span>
+        </div>
+        <div class="time-box">
+          <span class="time-box__value" data-part="minutes">00</span>
+          <span class="time-box__label">Minuten</span>
+        </div>
+        <div class="time-box">
+          <span class="time-box__value" data-part="seconds">00</span>
+          <span class="time-box__label">Sekunden</span>
+        </div>
+      </div>
+
+      <p class="countdown-note" data-countdown-note>
+        Gezielt auf den 05.09.2026 (Europa/Berlin).
+      </p>
+    </section>
+
+    <section class="panel details reveal" id="details" aria-labelledby="details-title">
+      <div class="panel__header">
+        <p class="eyebrow">Save the Date</p>
+        <h2 id="details-title">Was ihr schon wissen koennt</h2>
+      </div>
+
+      <div class="details-grid">
+        <article class="detail-card">
+          <h3>Datum</h3>
+          <p class="detail-card__value">Samstag, 05. September 2026</p>
+          <p>Bitte den Tag freihalten. Beginn und genaue Uhrzeiten kommen mit der Einladung.</p>
+        </article>
+
+        <article class="detail-card">
+          <h3>Ort</h3>
+          <p class="detail-card__value">Wird noch bekanntgegeben</p>
+          <p>Wir teilen euch Location, Anfahrt und Uebernachtungsoptionen rechtzeitig mit.</p>
+        </article>
+
+        <article class="detail-card">
+          <h3>Einladung</h3>
+          <p class="detail-card__value">Folgt spaeter</p>
+          <p>Die finale Einladung mit allen Infos und RSVP-Moeglichkeit kommt in einem spaeteren Schritt.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel note-panel reveal reveal--delay-1" aria-labelledby="note-title">
+      <div class="note-panel__media" aria-hidden="true">
+        <img src="assets/save-the-date-marie-michi.jpeg" alt="">
+      </div>
+      <div class="note-panel__content">
+        <p class="eyebrow">Marie + Michi</p>
+        <h2 id="note-title">Wir freuen uns auf euch</h2>
+        <p>
+          Diese Seite ist eure erste Erinnerung an unseren Tag. Wir aktualisieren sie spaeter mit
+          allen wichtigen Details zu Ablauf, Feier und Rueckmeldung.
+        </p>
+        <p class="note-panel__signature">Save the Date</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Marie + Michi | Hochzeit am 05. September 2026</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
