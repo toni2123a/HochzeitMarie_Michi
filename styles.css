@@ -286,6 +286,28 @@ main {
   font-size: 0.9rem;
 }
 
+.video-panel__intro {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.video-frame {
+  margin-top: 0.9rem;
+  border-radius: calc(var(--radius-lg) - 8px);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.62);
+  box-shadow: inset 0 0 0 1px rgba(38, 34, 30, 0.03);
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  max-height: min(72vh, 760px);
+  background: #0e0e0e;
+}
+
 .details-grid {
   margin-top: 1rem;
   display: grid;
